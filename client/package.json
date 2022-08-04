@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "https://chatty-application.netlify.app",
   "dependencies": {
     "dotenv": "^16.0.1",
     "query-string": "^7.1.1",
