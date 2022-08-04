@@ -18,7 +18,7 @@ const Chat = ({ location }) => {
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
 
-  const ENDPOINT = "https://chatty-application.herokuapp.com/";
+  const ENDPOINT = process.env.LOCAL_LINK;
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
