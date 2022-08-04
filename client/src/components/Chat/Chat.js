@@ -8,7 +8,7 @@ import Messages from "../Messages/Messages";
 import TextContainer from "../TextContainer/TextContainer";
 
 import "./Chat.css";
-const ENDPOINT = process.env.LOCAL_LINK;
+const ENDPOINT = process.env.APP_LINK;
 
 let socket;
 
